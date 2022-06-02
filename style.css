@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template:
+    "header header" 40px
+    "side-bar main" 1fr/
+    200px 1fr;
+}
+button :hover {
+  cursor: pointer;
+}
+
+.header {
+  grid-area: header;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  place-content: center;
+  padding: 20px;
+}
+
+.side-bar {
+  grid-area: side-bar;
+  background-color: bisque;
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(172, 126, 70);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  padding: 1rem;
+  width: 20vw;
+}
+
+.header__menu-button {
+  border: none;
+  background-color: transparent;
+}
+
+.header__yt-logo {
+  width: 30%;
+}
+
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__search {
+  width: 60%;
+  height: 2rem;
+  border: 2px solid #f1f1f1;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__search-button {
+  place-content: center;
+  width: 60px;
+  height: 32px;
+  border: #f1f1f1 solid 1px;
+  border-left: 0px;
+  background-color: #f8f8f8;
+  color: #4f4f4f;
+}
+
+.mic-button {
+  padding-left: 0.54rem;
+}
+
+.header__mic-button {
+  align-items: center;
+  justify-content: center;
+
+  border: #f1f1f1 solid 1px;
+  border-radius: 100%;
+  background-color: #f8f8f8;
+  color: #4f4f4f;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.header__right button {
+  border: none;
+  background-color: transparent;
+}
