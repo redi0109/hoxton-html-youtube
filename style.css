@@ -29,6 +29,7 @@ button :hover {
 .side-bar {
   grid-area: side-bar;
   background-color: bisque;
+  padding: 10px;
 }
 
 .main {
@@ -54,7 +55,6 @@ button :hover {
   width: 50%;
   border: none;
   background: transparent;
-
 }
 
 .header__main {
@@ -110,6 +110,26 @@ button :hover {
   background-color: transparent;
 }
 
-.yt-shorts{
+.yt-shorts {
   width: 13%;
+}
+
+.side-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.side-bar li {
+  display: grid;
+  list-style: none;
+}
+
+.side-bar__top {
+  display: grid;
+  border-bottom: #4f4f4f solid 1px;
+  padding: 0.5rem;
+}
+
+.side-bar__top-li {
+  display: grid;
 }
