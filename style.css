@@ -51,7 +51,10 @@ button :hover {
 }
 
 .header__yt-logo {
-  width: 30%;
+  width: 50%;
+  border: none;
+  background: transparent;
+
 }
 
 .header__main {
@@ -105,4 +108,8 @@ button :hover {
 .header__right button {
   border: none;
   background-color: transparent;
+}
+
+.yt-shorts{
+  width: 13%;
 }
