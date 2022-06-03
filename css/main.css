@@ -1,5 +1,44 @@
 
 main {
     grid-area: main;
-    background-color: rgb(172, 126, 70);
+    background-color: rgb(255, 255, 255);
+    grid-template-rows: 
+    'tag-bar' 1fr
+    'video-container' 1fr/
+    1fr;
+
+  }
+
+  .tag-bar {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+  grid-auto-flow: column;
+  padding: 15px;
+  border-top: #f2f2f2 solid 1px;
+  border-bottom: #f2f2f2 solid 1px;
+
+  }
+  
+  
+.tag-button{
+  border-color: #eceded;
+  background-color: #f2f2f2;
+  color: #4a4a4a;
+  height: 32px;
+  min-width: 12px;
+  padding: 0 10px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+  .video-container {
+    height: 100vh;
+    background-color: rgb(222, 71, 71);
+    display: grid;
   }
