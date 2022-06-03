@@ -2,6 +2,7 @@
   grid-area: side-bar;
   background-color: rgb(255, 255, 255);
   overflow-y: scroll;
+  position: sticky;
 }
 
 
