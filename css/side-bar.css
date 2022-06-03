@@ -1,0 +1,66 @@
+.side-bar {
+  grid-area: side-bar;
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+}
+
+
+.yt-shorts {
+  width: 13%;
+}
+
+.side-bar a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.side-bar li {
+  display: grid;
+  list-style: none;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.side-bar__top {
+  display: grid;
+  border-bottom: #f5f5f5 solid 1px;
+  padding-bottom: 15px;
+}
+
+.side-bar__middle {
+  display: grid;
+  border-bottom: #f5f5f5 solid 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.side-bar__subscriptions-channel {
+  padding-top: 15px;
+  border-bottom: #f5f5f5 solid 1px;
+}
+
+.side-bar__subscriptions-channel h5 {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  color: #606060;
+  font-weight: 500;
+}
+
+.side-bar__more-from-yt {
+  padding-top: 15px;
+  border-bottom: #f5f5f5 solid 1px;
+}
+
+.side-bar__more-from-yt h5 {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  color: #606060;
+  font-weight: 500;
+}
+
+.side-bar__settings {
+  padding-top: 15px;
+}
